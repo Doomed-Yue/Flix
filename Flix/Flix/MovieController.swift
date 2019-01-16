@@ -62,8 +62,6 @@ class MovieController: UIViewController, UITableViewDataSource, UITableViewDeleg
             cell.movieImage.af_setImage(withURL: posterUrl!)
         }
         else {
-            // No poster image. Can either set to nil (no image) or a default movie poster image
-            // that you include as an asset
             cell.movieImage.image = nil
         }
     
