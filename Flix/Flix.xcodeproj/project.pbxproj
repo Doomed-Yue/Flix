@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18604DCF21F14A360004650D /* MovieDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18604DCE21F14A360004650D /* MovieDetailsViewController.swift */; };
+		18604DD521F575AB0004650D /* SuperheroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18604DD421F575AB0004650D /* SuperheroViewController.swift */; };
+		18604DD721F579E70004650D /* SuperheroViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18604DD621F579E70004650D /* SuperheroViewCell.swift */; };
 		18EF9AAB21EAFE7100A93D7F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EF9AAA21EAFE7100A93D7F /* AppDelegate.swift */; };
 		18EF9AAD21EAFE7100A93D7F /* MovieController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EF9AAC21EAFE7100A93D7F /* MovieController.swift */; };
 		18EF9AB021EAFE7100A93D7F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18EF9AAE21EAFE7100A93D7F /* Main.storyboard */; };
@@ -17,6 +20,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		18604DCE21F14A360004650D /* MovieDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsViewController.swift; sourceTree = "<group>"; };
+		18604DD421F575AB0004650D /* SuperheroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperheroViewController.swift; sourceTree = "<group>"; };
+		18604DD621F579E70004650D /* SuperheroViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperheroViewCell.swift; sourceTree = "<group>"; };
 		18EF9AA721EAFE7100A93D7F /* Flix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flix.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18EF9AAA21EAFE7100A93D7F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18EF9AAC21EAFE7100A93D7F /* MovieController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieController.swift; sourceTree = "<group>"; };
@@ -42,6 +48,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18604DD821F647D40004650D /* Supporting File */ = {
+			isa = PBXGroup;
+			children = (
+				18EF9AB321EAFE7300A93D7F /* LaunchScreen.storyboard */,
+				18EF9AAA21EAFE7100A93D7F /* AppDelegate.swift */,
+				18EF9AB121EAFE7300A93D7F /* Assets.xcassets */,
+			);
+			path = "Supporting File";
+			sourceTree = "<group>";
+		};
 		18EF9A9E21EAFE7100A93D7F = {
 			isa = PBXGroup;
 			children = (
@@ -63,13 +79,14 @@
 		18EF9AA921EAFE7100A93D7F /* Flix */ = {
 			isa = PBXGroup;
 			children = (
-				18EF9AAA21EAFE7100A93D7F /* AppDelegate.swift */,
+				18604DD421F575AB0004650D /* SuperheroViewController.swift */,
 				18EF9AAC21EAFE7100A93D7F /* MovieController.swift */,
+				18604DD621F579E70004650D /* SuperheroViewCell.swift */,
+				18604DCE21F14A360004650D /* MovieDetailsViewController.swift */,
 				18EF9ABC21EB01FD00A93D7F /* MovieCell.swift */,
 				18EF9AAE21EAFE7100A93D7F /* Main.storyboard */,
-				18EF9AB121EAFE7300A93D7F /* Assets.xcassets */,
-				18EF9AB321EAFE7300A93D7F /* LaunchScreen.storyboard */,
 				18EF9AB621EAFE7300A93D7F /* Info.plist */,
+				18604DD821F647D40004650D /* Supporting File */,
 			);
 			path = Flix;
 			sourceTree = "<group>";
@@ -88,7 +105,6 @@
 				9FBCB38FF9C3C23FC5DFA9D9 /* Pods-Flix.debug.xcconfig */,
 				5AC489821A31C4DBCCF94DFA /* Pods-Flix.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -214,8 +230,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18604DD521F575AB0004650D /* SuperheroViewController.swift in Sources */,
+				18604DCF21F14A360004650D /* MovieDetailsViewController.swift in Sources */,
 				18EF9AAD21EAFE7100A93D7F /* MovieController.swift in Sources */,
 				18EF9AAB21EAFE7100A93D7F /* AppDelegate.swift in Sources */,
+				18604DD721F579E70004650D /* SuperheroViewCell.swift in Sources */,
 				18EF9ABD21EB01FD00A93D7F /* MovieCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
